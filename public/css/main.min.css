@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Poppins:wght@300;400;500;700&family=Raleway:wght@300;400;500;600;700&display=swap");
+body {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	line-height: 1.6;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+	font-family: "Raleway", sans-serif;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	line-height: 1.4;
+}
+li:hover,
+.router-link-active,
+.router-link-exact-active {
+    cursor: pointer;
+}
+.heading-primary {
+	font-weight: 600;
+	color: #132238;
+}
+.heading-primary::after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	width: 120px;
+	height: 4px;
+	background: #185adb;
+	border-radius: 4px;
+	bottom: -0.4rem;
+	left: 0px;
+}
+.heading-primary--centered {
+	text-align: center;
+}
+.heading-primary--centered::after {
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.book {
+	margin-bottom: 1rem;
+}
+.categories .list-group-item {
+	padding: 1rem;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 2px
+			4px,
+		rgba(0, 0, 0, 0.05) 0px 7px 13px -3px,
+		rgba(0, 0, 0, 0.05) 0px -3px 0px inset;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px,
+		rgba(0, 0, 0, 0.05) 0px 7px 13px -3px,
+		rgba(0, 0, 0, 0.05) 0px -3px 0px inset;
+}
+.footer {
+	background-color: #0e347f;
+}
+.footer a,
+.footer * {
+	color: #fff;
+}
+.footer a {
+	font-weight: lighter;
+}
+.bottom-footer .btn {
+	margin-left: -0.75rem !important;
+}
+.header {
+	background-color: #f9fafb;
+}
+.header__content {
+	padding: 2rem 0;
+}
+.header__image {
+	height: 500px;
+}
+.header__image img {
+	height: 90%;
+	width: 100%;
+}
+.header__heading {
+	font-weight: light;
+}
+.header__heading span {
+	font-size: 2rem;
+}
+.main-nav {
+	-webkit-transition: 0.5s background ease-in-out,
+		0.75s padding-top ease-in-out,
+		0.75s padding-bottom ease-in-out;
+	transition: 0.5s background ease-in-out,
+		0.75s padding-top ease-in-out,
+		0.75s padding-bottom ease-in-out;
+}
+.main-nav.bg-nav-color {
+	background: #132238;
+	padding-top: 0.5rem !important;
+	padding-bottom: 0.5rem !important;
+}
+.main-nav__brand-img {
+	width: 175px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+}
+.main-nav__menu-link {
+	color: #6a97ef;
+	font-weight: lighte;
+}
+.main-nav__menu-link--active,
+.main-nav__menu-link:hover {
+	color: #185adb;
+}
+.main-nav .navbar-toggler {
+	width: 52px;
+	background-color: transparent;
+	border: 3px solid #185adb;
+}
+.offcanvas {
+	z-index: 2000;
+	top: 0;
+	left: 0;
+	background-color: #333 !important;
+}
+.offcanvas__logo img {
+	display: block;
+	margin: auto;
+}
+.offcanvas .bg-gradient {
+	background-image: var(--bs-gradient) !important;
+	color: #fff;
+}
+.section_p {
+	padding: 70px 0;
+}
+main {
+	background-color: #f9fafb;
+}
+.about__image {
+	width: 70px;
+}
+/*# sourceMappingURL=main.min.css.map */
